@@ -1,0 +1,492 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+<!-- Apparel Types -->
+
+	<ThingCategoryDef>
+		<defName>Root</defName>
+		<label>root</label>
+	</ThingCategoryDef>
+	
+	<ThingCategoryDef>
+		<defName>Apparel</defName>
+		<label>apparel</label>
+		<parent>Root</parent>
+	</ThingCategoryDef>
+
+	<!-- Animal -->
+
+	<ThingCategoryDef> <!-- Animal Apparel -->
+		<defName>ApparelAnimal</defName>
+		<label>[Animal Apparel]</label>
+		<parent>Apparel</parent>
+	</ThingCategoryDef>
+	
+		<ThingCategoryDef> <!-- === Animal / Clothing === -->
+			<defName>ApparelAnimal_Clothing</defName>
+			<label>[Clothing]</label>
+			<parent>ApparelAnimal</parent>
+		</ThingCategoryDef>
+
+		<ThingCategoryDef> <!-- === Animal / Armour === -->
+			<defName>ApparelAnimal_Armour</defName>
+			<label>[Armour]</label>
+			<parent>ApparelAnimal</parent>
+		</ThingCategoryDef>
+
+			<ThingCategoryDef> <!-- === Animal / Armour / Body === -->
+				<defName>ApparelAnimal_Armour_Body</defName>
+				<label>[Body]</label>
+				<parent>ApparelAnimal_Armour</parent>
+			</ThingCategoryDef>
+
+			<ThingCategoryDef> <!-- === Animal / Armour / Headgear === -->
+				<defName>ApparelAnimal_Armour_Headgear</defName>
+				<label>[Headgear]</label>
+				<parent>ApparelAnimal_Armour</parent>
+			</ThingCategoryDef>	
+	
+	<!-- Noble -->
+
+	<ThingCategoryDef> <!-- Noble Apparel -->
+		<defName>ApparelNoble</defName>
+		<label>[Noble Apparel]</label>
+		<parent>Apparel</parent>
+	</ThingCategoryDef>
+	
+		<ThingCategoryDef> <!-- === Noble / Headgear === -->
+			<defName>ApparelNoble_Headgear</defName>
+			<label>[Headgear]</label>
+			<parent>ApparelNoble</parent>
+		</ThingCategoryDef>
+
+			<ThingCategoryDef> <!-- === Noble / Headgear / Crown === -->
+				<defName>ApparelNoble_Headgear_Crown</defName>
+				<label>[Crowns]</label>
+				<parent>ApparelNoble_Headgear</parent>
+			</ThingCategoryDef>
+
+		<ThingCategoryDef> <!-- === Noble / Handwear === -->
+			<defName>ApparelNoble_Handwear</defName>
+			<label>[Handwear]</label>
+			<parent>ApparelNoble</parent>
+		</ThingCategoryDef>
+		
+		<ThingCategoryDef> <!-- === Noble / Footwear === -->
+			<defName>ApparelNoble_Footwear</defName>
+			<label>[Footwear]</label>
+			<parent>ApparelNoble</parent>
+		</ThingCategoryDef>
+
+		<ThingCategoryDef> <!-- === Noble / Innerwear === -->
+			<defName>ApparelNoble_Innerwear</defName>
+			<label>[Innerwear]</label>
+			<parent>ApparelNoble</parent>
+		</ThingCategoryDef>
+
+		<ThingCategoryDef> <!-- === Noble / Outerwear === -->
+			<defName>ApparelNoble_Outerwear</defName>
+			<label>[Outerwear]</label>
+			<parent>ApparelNoble</parent>
+		</ThingCategoryDef>
+
+		<ThingCategoryDef> <!-- === Noble / Accessories === -->
+			<defName>ApparelNoble_Accessories</defName>
+			<label>[Accessories]</label>
+			<parent>ApparelNoble</parent>
+		</ThingCategoryDef>
+
+	<!-- Psychic -->
+
+	<ThingCategoryDef> <!-- Psychic Apparel -->
+		<defName>ApparelPsychic</defName>
+		<label>[Psychic Apparel]</label>
+		<parent>Apparel</parent>
+	</ThingCategoryDef>
+	
+		<ThingCategoryDef> <!-- === Psychic / Headgear === -->
+			<defName>ApparelPsychic_Headgear</defName>
+			<label>[Headgear]</label>
+			<parent>ApparelPsychic</parent>
+		</ThingCategoryDef>
+
+		<ThingCategoryDef> <!-- === Psychic / Handwear === -->
+			<defName>ApparelPsychic_Handwear</defName>
+			<label>[Handwear]</label>
+			<parent>ApparelPsychic</parent>
+		</ThingCategoryDef>
+		
+		<ThingCategoryDef> <!-- === Psychic / Footwear === -->
+			<defName>ApparelPsychic_Footwear</defName>
+			<label>[Footwear]</label>
+			<parent>ApparelPsychic</parent>
+		</ThingCategoryDef>
+
+		<ThingCategoryDef> <!-- === Psychic / Innerwear === -->
+			<defName>ApparelPsychic_Innerwear</defName>
+			<label>[Innerwear]</label>
+			<parent>ApparelPsychic</parent>
+		</ThingCategoryDef>
+
+		<ThingCategoryDef> <!-- === Psychic / Outerwear === -->
+			<defName>ApparelPsychic_Outerwear</defName>
+			<label>[Outerwear]</label>
+			<parent>ApparelPsychic</parent>
+		</ThingCategoryDef>
+
+		<ThingCategoryDef> <!-- === Psychic / Accessories === -->
+			<defName>ApparelPsychic_Accessories</defName>
+			<label>[Accessories]</label>
+			<parent>ApparelPsychic</parent>
+		</ThingCategoryDef>
+
+	<!-- Combat -->
+
+	<ThingCategoryDef> <!-- Combat Apparel -->
+		<defName>ApparelCombat</defName>
+		<label>[Military Apparel]</label>
+		<parent>Apparel</parent>
+	</ThingCategoryDef>
+
+		<!-- Combat / Uniforms -->
+
+		<ThingCategoryDef> <!-- Combat Uniforms -->
+			<defName>ApparelCombat_Uniforms</defName>
+			<label>[Uniforms]</label>
+			<parent>ApparelCombat</parent>
+		</ThingCategoryDef>
+		
+			<ThingCategoryDef> <!-- === Combat / Uniforms / Headgear === -->
+				<defName>ApparelCombat_Uniforms_Headgear</defName>
+				<label>[Headgear]</label>
+				<parent>ApparelCombat_Uniforms</parent>
+			</ThingCategoryDef>
+
+			<ThingCategoryDef> <!-- === Combat / Uniforms / Handwear === -->
+				<defName>ApparelCombat_Uniforms_Handwear</defName>
+				<label>[Handwear]</label>
+				<parent>ApparelCombat_Uniforms</parent>
+			</ThingCategoryDef>
+			
+			<ThingCategoryDef> <!-- === Combat / Uniforms / Footwear === -->
+				<defName>ApparelCombat_Uniforms_Footwear</defName>
+				<label>[Footwear]</label>
+				<parent>ApparelCombat_Uniforms</parent>
+			</ThingCategoryDef>
+
+			<ThingCategoryDef> <!-- === Combat / Uniforms / Innerwear === -->
+				<defName>ApparelCombat_Uniforms_Innerwear</defName>
+				<label>[Innerwear]</label>
+				<parent>ApparelCombat_Uniforms</parent>
+			</ThingCategoryDef>
+
+			<ThingCategoryDef> <!-- === Combat / Uniforms / Outerwear === -->
+				<defName>ApparelCombat_Uniforms_Outerwear</defName>
+				<label>[Outerwear]</label>
+				<parent>ApparelCombat_Uniforms</parent>
+			</ThingCategoryDef>
+
+			<ThingCategoryDef> <!-- === Combat / Uniforms / Accessories === -->
+				<defName>ApparelCombat_Uniforms_Accessories</defName>
+				<label>[Accessories]</label>
+				<parent>ApparelCombat_Uniforms</parent>
+			</ThingCategoryDef>
+
+		<!-- Combat / Armour -->
+
+		<ThingCategoryDef> <!-- Combat Armour -->
+			<defName>ApparelCombat_Armour</defName>
+			<label>[Armour]</label>
+			<parent>ApparelCombat</parent>
+		</ThingCategoryDef>
+		
+			<ThingCategoryDef> <!-- Combat Armour Headgear -->
+				<defName>ApparelCombat_Armour_Headgear</defName>
+				<label>[Headgear]</label>
+				<parent>ApparelCombat_Armour</parent>
+			</ThingCategoryDef>
+			
+				<ThingCategoryDef> <!-- === Combat / Armor / Headgear / Helmets === -->
+					<defName>ApparelCombat_Armour_Headgear_Helmets</defName>
+					<label>[Helmets]</label>
+					<parent>ApparelCombat_Armour_Headgear</parent>
+				</ThingCategoryDef>
+
+				<ThingCategoryDef> <!-- === Combat / Armor / Headgear / Hats === -->
+					<defName>ApparelCombat_Armour_Headgear_Hats</defName>
+					<label>[Hats]</label>
+					<parent>ApparelCombat_Armour_Headgear</parent>
+				</ThingCategoryDef>
+
+			<ThingCategoryDef> <!-- === Combat / Armor / Handwear === -->
+				<defName>ApparelCombat_Armour_Handwear</defName>
+				<label>[Handwear]</label>
+				<parent>ApparelCombat_Armour</parent>
+			</ThingCategoryDef>
+			
+			<ThingCategoryDef> <!-- === Combat / Armor / Footwear === -->
+				<defName>ApparelCombat_Armour_Footwear</defName>
+				<label>[Footwear]</label>
+				<parent>ApparelCombat_Armour</parent>
+			</ThingCategoryDef>
+
+			<ThingCategoryDef> <!-- Combat Armour Body -->
+				<defName>ApparelCombat_Armour_BodyArmour</defName>
+				<label>[Body Armour]</label>
+				<parent>ApparelCombat_Armour</parent>
+			</ThingCategoryDef>
+
+				<ThingCategoryDef> <!-- === Combat / Armor / Body Armor / Fullbody === -->
+					<defName>ApparelCombat_Armour_BodyArmour_Fullbody</defName>
+					<label>[FullBody]</label>
+					<parent>ApparelCombat_Armour_BodyArmour</parent>
+				</ThingCategoryDef>
+			
+				<ThingCategoryDef> <!-- === Combat / Armor / Body Armor / Upperbody === -->
+					<defName>ApparelCombat_Armour_BodyArmour_Upperbody</defName>
+					<label>[Upper Body]</label>
+					<parent>ApparelCombat_Armour_BodyArmour</parent>
+				</ThingCategoryDef>
+
+				<ThingCategoryDef> <!-- === Combat / Armor / Body Armor / Lowerbody === -->
+					<defName>ApparelCombat_Armour_BodyArmour_Lowerbody</defName>
+					<label>[Lower Body]</label>
+					<parent>ApparelCombat_Armour_BodyArmour</parent>
+				</ThingCategoryDef>
+
+			<ThingCategoryDef> <!-- Combat Armour ExoSuit -->
+				<defName>ApparelCombat_Armour_ExoSuit</defName>
+				<label>[ExoSuit]</label>
+				<parent>ApparelCombat_Armour</parent>
+			</ThingCategoryDef>
+
+				<ThingCategoryDef> <!-- === Combat / Armor / ExoSuit / Fullbody === -->
+					<defName>ApparelCombat_Armour_ExoSuit_Fullbody</defName>
+					<label>[Body]</label>
+					<parent>ApparelCombat_Armour_ExoSuit</parent>
+				</ThingCategoryDef>
+			
+				<ThingCategoryDef> <!-- === Combat / Armor / ExoSuit / Headgear === -->
+					<defName>ApparelCombat_Armour_ExoSuit_Headgear</defName>
+					<label>[Headgear]</label>
+					<parent>ApparelCombat_Armour_ExoSuit</parent>
+				</ThingCategoryDef>
+
+				<ThingCategoryDef> <!-- === Combat / Armor / ExoSuit / Handwear === -->
+					<defName>ApparelCombat_Armour_ExoSuit_Handwear</defName>
+					<label>[Handwear]</label>
+					<parent>ApparelCombat_Armour_ExoSuit</parent>
+				</ThingCategoryDef>
+				
+				<ThingCategoryDef> <!-- === Combat / Armor / ExoSuit / Footwear === -->
+					<defName>ApparelCombat_Armour_ExoSuit_Footwear</defName>
+					<label>[Footwear]</label>
+					<parent>ApparelCombat_Armour_ExoSuit</parent>
+				</ThingCategoryDef>
+				
+				<ThingCategoryDef> <!-- === Combat / Armor / ExoSuit / Accessories === -->
+					<defName>ApparelCombat_Armour_ExoSuit_Accessories</defName>
+					<label>[Accessories]</label>
+					<parent>ApparelCombat_Armour_ExoSuit</parent>
+				</ThingCategoryDef>
+			
+			<ThingCategoryDef> <!-- === Combat Armour Accessories === -->
+				<defName>ApparelCombat_Armour_Accessories</defName>
+				<label>[Accessories]</label>
+				<parent>ApparelCombat_Armour</parent>
+			</ThingCategoryDef>
+
+		<!-- Combat / Accessories -->
+
+		<ThingCategoryDef> <!-- Combat Accessories -->
+			<defName>ApparelCombat_Accessories</defName>
+			<label>[Accessories]</label>
+			<parent>ApparelCombat</parent>
+		</ThingCategoryDef>
+
+			<ThingCategoryDef> <!-- === Combat / Accessories / Load Bearing === -->
+				<defName>ApparelCombat_Accessories_LoadBearing</defName>
+				<label>[Load Bearing]</label>
+				<parent>ApparelCombat_Accessories</parent>
+			</ThingCategoryDef>
+
+			<ThingCategoryDef> <!-- === Combat / Accessories / Shields === -->
+				<defName>ApparelCombat_Accessories_Shields</defName>
+				<label>[Shields]</label>
+				<parent>ApparelCombat_Accessories</parent>
+			</ThingCategoryDef>
+			
+			<ThingCategoryDef> <!-- === Combat / Accessories / Belts === -->
+				<defName>ApparelCombat_Accessories_Belts</defName>
+				<label>[Belts]</label>
+				<parent>ApparelCombat_Accessories</parent>
+			</ThingCategoryDef>
+			
+			<ThingCategoryDef> <!-- === Combat / Accessories / Gear === -->
+				<defName>ApparelCombat_Accessories_Gear</defName>
+				<label>[Gear]</label>
+				<parent>ApparelCombat_Accessories</parent>
+			</ThingCategoryDef>
+
+	<!-- Civilian -->
+
+	<ThingCategoryDef> <!-- Civilian Apparel -->
+		<defName>ApparelCivilian</defName>
+		<label>[Civilian Apparel]</label>
+		<parent>Apparel</parent>
+	</ThingCategoryDef>
+	
+		<ThingCategoryDef> <!-- === Civilian / Headgear === -->
+			<defName>ApparelCivilian_Headgear</defName>
+			<label>[Headgear]</label>
+			<parent>ApparelCivilian</parent>
+		</ThingCategoryDef>
+
+		<ThingCategoryDef> <!-- === Civilian / Handwear === -->
+			<defName>ApparelCivilian_Handwear</defName>
+			<label>[Handwear]</label>
+			<parent>ApparelCivilian</parent>
+		</ThingCategoryDef>
+		
+		<ThingCategoryDef> <!-- === Civilian / Footwear === -->
+			<defName>ApparelCivilian_Footwear</defName>
+			<label>[Footwear]</label>
+			<parent>ApparelCivilian</parent>
+		</ThingCategoryDef>
+
+		<ThingCategoryDef> <!-- === Civilian / Innerwear === -->
+			<defName>ApparelCivilian_Innerwear</defName>
+			<label>[Innerwear]</label>
+			<parent>ApparelCivilian</parent>
+		</ThingCategoryDef>
+
+		<ThingCategoryDef> <!-- === Civilian / Outerwear === -->
+			<defName>ApparelCivilian_Outerwear</defName>
+			<label>[Outerwear]</label>
+			<parent>ApparelCivilian</parent>
+		</ThingCategoryDef>
+
+		<ThingCategoryDef> <!-- === Civilian / ExoSuit === -->
+			<defName>ApparelCivilian_ExoSuit</defName>
+			<label>[ExoSuit]</label>
+			<parent>ApparelCivilian</parent>
+		</ThingCategoryDef>
+
+		<ThingCategoryDef> <!-- === Civilian / Accessories === -->
+			<defName>ApparelCivilian_Accessories</defName>
+			<label>[Accessories]</label>
+			<parent>ApparelCivilian</parent>
+		</ThingCategoryDef>
+
+	<!-- Tribal -->
+
+	<ThingCategoryDef> <!-- Tribal Apparel -->
+		<defName>ApparelTribal</defName>
+		<label>[Tribal Apparel]</label>
+		<parent>Apparel</parent>
+	</ThingCategoryDef>
+	
+		<ThingCategoryDef> <!-- === Tribal / Headgear === -->
+			<defName>ApparelTribal_Headgear</defName>
+			<label>[Headgear]</label>
+			<parent>ApparelTribal</parent>
+		</ThingCategoryDef>
+
+		<ThingCategoryDef> <!-- === Tribal / Handwear === -->
+			<defName>ApparelTribal_Handwear</defName>
+			<label>[Handwear]</label>
+			<parent>ApparelTribal</parent>
+		</ThingCategoryDef>
+		
+		<ThingCategoryDef> <!-- === Tribal / Footwear === -->
+			<defName>ApparelTribal_Footwear</defName>
+			<label>[Footwear]</label>
+			<parent>ApparelTribal</parent>
+		</ThingCategoryDef>
+
+		<ThingCategoryDef> <!-- === Tribal / Innerwear === -->
+			<defName>ApparelTribal_Innerwear</defName>
+			<label>[Innerwear]</label>
+			<parent>ApparelTribal</parent>
+		</ThingCategoryDef>
+
+		<ThingCategoryDef> <!-- === Tribal / Outerwear === -->
+			<defName>ApparelTribal_Outerwear</defName>
+			<label>[Outerwear]</label>
+			<parent>ApparelTribal</parent>
+		</ThingCategoryDef>
+
+		<ThingCategoryDef> <!-- === Tribal / Accessories === -->
+			<defName>ApparelTribal_Accessories</defName>
+			<label>[Accessories]</label>
+			<parent>ApparelTribal</parent>
+		</ThingCategoryDef>
+
+	<!-- Special -->
+
+	<ThingCategoryDef> <!-- Special Apparel -->
+		<defName>ApparelSpecial</defName>
+		<label>[Special Apparel]</label>
+		<parent>Apparel</parent>
+	</ThingCategoryDef>
+
+		<!-- Special / HAZMAT -->
+		
+		<ThingCategoryDef> <!-- HAZMAT Apparel -->
+			<defName>ApparelSpecial_HAZMAT</defName>
+			<label>[HAZMAT]</label>
+			<parent>ApparelSpecial</parent>
+		</ThingCategoryDef>
+		
+			<ThingCategoryDef> <!-- === Special / HAZMAT / Headgear === -->
+				<defName>ApparelSpecial_HAZMAT_Headgear</defName>
+				<label>[Headgear]</label>
+				<parent>ApparelSpecial_HAZMAT</parent>
+			</ThingCategoryDef>
+
+			<ThingCategoryDef> <!-- === Special / HAZMAT / Handwear === -->
+				<defName>ApparelSpecial_HAZMAT_Handwear</defName>
+				<label>[Handwear]</label>
+				<parent>ApparelSpecial_HAZMAT</parent>
+			</ThingCategoryDef>
+
+			<ThingCategoryDef> <!-- === Special / HAZMAT / Footwear === -->
+				<defName>ApparelSpecial_HAZMAT_Footwear</defName>
+				<label>[Footwear]</label>
+				<parent>ApparelSpecial_HAZMAT</parent>
+			</ThingCategoryDef>
+
+			<ThingCategoryDef> <!-- HAZMAT Suit -->
+				<defName>ApparelSpecial_HAZMAT_Suit</defName>
+				<label>[Suit]</label>
+				<parent>ApparelSpecial_HAZMAT</parent>
+			</ThingCategoryDef>
+
+				<ThingCategoryDef> <!-- === Special / HAZMAT / Suit / Fullbody === -->
+					<defName>ApparelSpecial_HAZMAT_Suit_Fullbody</defName>
+					<label>[FullBody]</label>
+					<parent>ApparelSpecial_HAZMAT_Suit</parent>
+				</ThingCategoryDef>
+			
+				<ThingCategoryDef> <!-- === Special / HAZMAT / Suit / Upperbody === -->
+					<defName>ApparelSpecial_HAZMAT_Suit_Upperbody</defName>
+					<label>[Upper Body]</label>
+					<parent>ApparelSpecial_HAZMAT_Suit</parent>
+				</ThingCategoryDef>
+
+				<ThingCategoryDef> <!-- === Special / HAZMAT / Suit / Lowerbody === -->
+					<defName>ApparelSpecial_HAZMAT_Suitr_Lowerbody</defName>
+					<label>[Lower Body]</label>
+					<parent>ApparelSpecial_HAZMAT_Suit</parent>
+				</ThingCategoryDef>
+
+		<!-- Special / Jewelry -->			
+			
+		<ThingCategoryDef> <!-- === Special / Jewelry === -->
+			<defName>ApparelSpecial_Jewelry</defName>
+			<label>[Jewelry]</label>
+			<parent>ApparelSpecial</parent>
+		</ThingCategoryDef>
+
+
+</Defs>
